@@ -1,0 +1,83 @@
+.header {
+  display: flex;
+  justify-content: space-around;
+}
+#head {
+  margin-top: 20px;
+}
+
+.signInPage {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding-top: 10%;
+  gap: 10px;
+}
+.BG {
+  padding-top: 10%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.BG > div {
+  margin-top: 20px;
+}
+.BG > div > button {
+  width: 60px;
+  height: 60px;
+  background-color: grey;
+  color: white;
+  font-weight: bold;
+  font-size: x-large;
+  margin-right: 20px;
+}
+.floorRoom {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding-top: 10%;
+  gap: 10px;
+}
+.btnbox {
+  width: 300px;
+  
+  border: 1px solid black;
+  border-radius: 10px;
+  display: flex;
+  flex-wrap: wrap;
+  padding: 5px;
+}
+.btnbox > button {
+  width: 50px;
+  height: 50px;
+  border-radius: 30%;
+  background-color: lightgreen;
+  margin-top: 20px;
+  margin-left: 15px;
+}
+
+.popup {
+  margin-left: 40%;
+  margin-top: 5%;
+  text-align: center;
+  width: 30%;
+  height: 40vh;
+  border: 1px solid black;
+  border-radius: 30px;
+  background-color: rgb(40, 165, 77);
+}
+#cross {
+  background-color: red;
+  width: 30px;
+  border-radius: 50%;
+  color: white;
+  outline-color: white;
+  font-weight: bold;
+  text-align: center;
+  align-self: flex-start;
+  margin-top: 10px;
+  margin-left: 10px;
+}
